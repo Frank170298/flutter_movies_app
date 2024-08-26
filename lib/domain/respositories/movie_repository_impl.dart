@@ -13,7 +13,7 @@ class MovieRepositoryImpl implements MovieRepository {
   MovieRepositoryImpl(this.client);
 
   final String apiUrl =
-      'https://repository-delfosti-aws-prueba-11.onrender.com/movies';
+      'https://repository-delfosti-aws-prueba-7.onrender.com/movies';
 
   @override
   Future<void> addMovie(Movie movie) async {
